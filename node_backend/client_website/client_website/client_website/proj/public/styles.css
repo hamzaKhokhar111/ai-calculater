@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+}
+
+
+.container-nav{
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#383838 ;
+    z-index: 2;
+    
+}
+
+.boxes{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    flex: 1 1 15rem;
+    margin: 12px;
+    color: white;
+    padding: 1px;
+}
+
+.container-body{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.middle-box{
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    background-color: aqua;
+}
+.discover{
+    background-color: orange;
+}
+
+
+
+/* RESTAURANTS CSS */
+.container-retaurant{
+    background-color: #701C18 ;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: auto;
+
+}
+.title-restaurant{
+    background-color:#383838;
+    z-index: 1;
+    left: 5rem;
+    right: 5rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: 1px solid black;
+    color: white;
+    
+}
+.restaurant_pic1 ,.restaurant_pic2 ,.restaurant_pic3  {
+    top: 0 ;
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.restuarant1{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color: aquamarine;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+}
+
+.restaurant2{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color:#1BBAE9;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+}
+.restaurant3{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color: #CF3915;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+
+}
+
+
+
+
+/* HOTELS CSS */
+.container-hotel{
+    background-color: lightslategray ;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    min-height: 100vh;
+   overflow: scroll;
+}
+.title-hotel{
+    background-color:#383838;
+    z-index: 1;
+    left: 5rem;
+    right: 5rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: 1px solid black;
+    color: white;
+    
+}
+.hotel_pic1 ,.hotel_pic2 ,.hotel_pic3  {
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    overflow: scroll;
+}
+
+.hotel1{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color: #08B625;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+}
+
+.hotel2{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color:#1BBAE9;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+}
+.hotel3{
+    margin-top: 10rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    background-color: orange;
+    color: white;
+    width: 40rem;
+    margin-right: 4rem;
+    z-index: 1;
+
+}
+
+/* CONTACTS CSS */
+.title-contact{
+    background-color:#383838;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border: 1px solid black;
+    color: white;
+}
+.container-contact{
+    background-color: #701C18 ;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+
+
+}
+/* aboutus CSS */
+
+.aboutus-container{
+    background-color: lightseagreen ;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: scroll;
+
+}
+/* login CSS */
+.login-container{
+    background-color: lightseagreen ;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: scroll;
+
+}
+
+
+h1,h2{
+    padding: 5px;
+}
+
+.welcome{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+}
+video{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 575px) {
+    div{
+        font-size: 1.25rem;
+      
+    }
+}
+@media screen and (min-width: 576px) {
+    div{
+        font-size: 1.25rem;
+      }
+    
+}
+@media screen and (min-width: 768px) {
+    div{
+        font-size: 1.25rem;
+      }
+    
+}
+@media screen and (min-width: 992px) {
+    div{
+        font-size: 1.25rem;
+      }
+    
+    }
